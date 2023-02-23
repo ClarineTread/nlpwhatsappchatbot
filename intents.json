@@ -1,0 +1,274 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["Hello","Hi","Hola","Bonjour","Vanakkam","Namaste","what's up","Hey"],
+            "responses":[
+            "Hello there! Happy to help",
+            "What's up! How could I help you!",
+            "Yo! Hello there! Anything I could help you with :)",
+            "Vanakkam! Here to help, feel free to ask!"
+        ]
+        },
+        {
+            "tag":"issue",
+            "patterns":["My phone does not work","My phone is not working","My phone is broken","I need help with my phone","My phone has a problem","my phone needs to be repaired","my phone has an issue"],
+            "responses":[
+                "That's unfortunate! Can you tell me whether it is a hardware or software problem",
+                "That's a bad thing! What is the issue? Is it a software or hardware issue?",
+                "Unfortunately, that! Please let me know if the issue is with the hardware or the software."
+            ]
+        },
+        {
+            "tag":"hardware",
+            "patterns":[
+                "I have an issue with the hardware",
+                "My phone has a hardware problem",
+                "My hardware is not working properly",
+                "I think it is a hardware issue"
+            ],
+            "responses":[
+                "If it is a hardware issue, can you tell about the specific issue that you might be facing?",
+                "Can you describe the precise problem you could be having if it is a hardware problem?",
+                "Would you mind describing the precise problem you could be having if it is a hardware issue?"
+            ]
+        },
+        {
+            "tag":"software",
+            "patterns":[
+                "I think it is a software problem",
+                "My phone might have a software issue",
+                "My software is not working properly",
+                "My software is glitching"
+            ],
+            "responses":[
+                "If it is a software issue, can you specifically tell me the issue that you might be facing.",
+                "Can you describe the problem in detail if it's a software issue that you might be having?",
+                "If there is a software problem, could you please describe the problem in detail."
+            ]
+        },
+        {
+            "tag":"slow phone",
+            "patterns":[
+                "My phone is slow",
+                "My phone is hanging",
+                "My phone is lagging",
+                "My phone is freezing",
+                "My phone freezes very often",
+                "My apps crash",
+                "I have a slow phone"
+            ],
+            "responses":[
+                "If your phone is slow, you might need to uninstall some apps and you can backup some data onto some other backup so your phone becomes much faster.",
+                "You may need to remove some apps from your phone if it is running slowly, and you can backup some data to another backup to make your phone run quicker. You may need to remove some apps from your phone if it is running slowly, and you can backup some data to another backup to make your phone run quicker.",
+                "If your phone is sluggish, you may need to remove some apps and you can backup some data to another backup to make your phone faster. If your phone is sluggish, you may need to remove some apps and you can backup some data to another backup to make your phone faster."
+            ]
+        },
+        {
+            "tag":"virus",
+            "patterns":[
+                "my phone has a virus",
+                "my phone has been hacked",
+                "my phone has malicious apps",
+                "my phone has malware",
+                "I think I have a virus",
+                "I may have a virus"
+            ],
+            "responses":[
+                "If your phone has a virus, please install an antivirus through your app store and allow it to scan for malicious apps. If you feel that the virus hasn't gone yet, backup your data excluding apps and perform a reset so any viruses may be cleared and hackers cannot control your device.",
+                "Please install an antivirus through your app store and let it scan for harmful apps if your phone is infected. If you believe that the infection is still present, backup all of your data excluding apps and reset your device to ensure that any viruses are removed and that hackers cannot take control of it.",
+                "Please download an antivirus from your app store and enable it to scan for malicious apps if your phone has a virus. In order to ensure that any infections are removed and hackers cannot take control of your smartphone, backup all of your data excluding apps and reset your device if you believe the virus is still present."
+            ]
+
+        },
+        {
+            "tag":"backup",
+            "patterns":[
+                "I need to backup my data",
+                "My phone needs backup",
+                "I need help to backup my data",
+                "I need to recover my data",
+                "I need my files and folders back"
+            ],
+            "responses":[
+                "Don't you worry, our service center is well equipped and has professionals who can backup or recover your data. Our service center stays open from 8Am to 10PM",
+                "Do not fear; we have experts who can backup or recover your data at our well-equipped service centre. From 8 AM to 10 PM, our service centre is open.",
+                "Do not be concerned; our service centre is equipped and staffed with experts that can backup or recover your data. Our service centre is open every day from 8 AM to 10 PM."
+            ]
+        },
+        {
+            "tag":"display broken",
+            "patterns":[
+                "My display is broken",
+                "My screen is broken",
+                "My screen is cracked",
+                "My display is shattered",
+                "My display does not work",
+                "my display is not functional",
+                "screen is broken",
+                "screen is shattered",
+                "screen is cracked"
+
+            ],
+            "responses":[
+                "If your screen has shattered, please stop using the device immediately. The shards of glass may be accidentaly ingested and may cause several medical complications. Please do bring your device to our service center as soon as possible. We stay open from 8AM to 10PM",
+                "Please cease using your device as soon as your screen breaks. Accidental ingestion of glass fragments might result in a number of medical issues. As soon as you can, bring your device to our service centre. We are available from 8 AM to 10 PM.",
+                "Please cease using the smartphone right once if your screen has broken. Glass fragments have the potential to accidentally enter the body and result in a number of medical issues. We kindly ask that you visit our service centre as soon as possible with your device. From 8 AM to 10 PM, we are open."
+            ]
+        },
+        {
+            "tag": "water damage",
+            "patterns":[
+                "My phone fell into the water",
+                "I dropped my phone in a lake",
+                "My phone has water damage",
+                "My phone fell into a puddle",
+                "My phone got exposed to moisture",
+                "I dropped my phone in the sea"
+            ],
+            "responses":[
+                "If the device still works, you are fortunate. In most of the cases, this may cause a short circuit which will entirely destroy your device. But still, if the device somehow works we will be able to backup your data.",
+                "You are lucky if the device is still operational. The majority of the time, this could result in a short circuit, which would completely ruin your gadget. But even so, we will be able to backup your data if the gadget somehow functions.",
+                "You are fortunate if the equipment is still functional. This might, in the majority of cases, result in a short circuit, which would completely destroy your gadget. We will still be able to backup your data if the gadget manages to function."
+            ]
+        },
+        {
+            "tag": "camera",
+            "patterns":[
+                "My camera does not work",
+                "My camera is broken",
+                "My camera is not working properly",
+                "My camera is shattered",
+                "I broke my camera",
+                "I think my camera is broken",
+                "My camera doesn't work",
+                "My camera is not functional"
+            ],
+            "responses":[
+                "If your camera does not work there might be a software issue. But if it is damaged due to physical trauma or due to external factors, the repair is very simple. We provide the best price for camera replacement for your concerned device",
+                "A software problem could be the cause of your camera not working. However, if it is harmed physically or by outside forces, the repair is fairly straightforward. For your concerned gadget, we provide the best pricing for a replacement camera.",
+                "A software issue could be the cause of your camera's malfunction. However, the restoration is relatively easy whether the damage was caused by physical harm or by outside influences. For the camera replacement for your concerned device, we provide the greatest pricing."
+            ]
+        },
+        {
+            "tag": "speaker",
+            "patterns":[
+                "My speaker is broken",
+                "My speaker does not work",
+                "My speaker is not working",
+                "I think my speaker doesn't work",
+                "My speaker is not functional."
+            ],
+            "responses":[
+                "If your speaker is not working properly it may be a software issue which you can fix easily. If it still doesn't work it may be due to external factors such as moisture, dust, etc.",
+                "If your speaker isn't functioning properly, there might be a software problem that you can simply solve. If it still doesn't function, it can be because of outside elements like dampness, dust, etc.",
+                "It may be a software problem that you can quickly solve if your speaker isn't functioning properly. External elements like dampness, dust, etc. may be to blame if it still doesn't function."
+            ]
+        },
+        {
+            "tag":"microphone",
+            "patterns":[
+                "My microphone is broken",
+                "My mic does not work",
+                "My microphone does not function",
+                "My mic is not functioning properly",
+                "I think my microphone does not work"
+            ],
+            "responses":[
+                "If your microphone does not work properly it may be due to a software issue which can be fixed easily by updating the software. Or else mostly it is a physical issue which we can easily fix in our service center."
+            ]
+        },
+        {
+            "tag":"charging",
+            "patterns":[
+                "My charging port is broken",
+                "My charging port is not working",
+                "My phone does not charge",
+                "My phone is not charging"
+            ],
+            "responses":[
+                "If your phone is not charging, you can try cleaning the port with cotton buds, or if it still does not work properly, bring your phone to our service center from 8AM to 10PM."
+            ]
+        },
+        {
+            "tag":"touch_issue",
+            "patterns":[
+                "My touch screen is not working properly",
+                "My touch screen is not working",
+                "My touch screen is not functional",
+                "My touch screen is flickering",
+                "My touchscreen is not working properly",
+                "My touchscreen is not working",
+                "My touchscreen is not functional",
+                "My touchscreen is flickering"
+            ],
+            "responses":[
+                "If your touch screen does not work properly, then please do visit us at our service center from 8AM to 10PM. Issues may be caused due to a wide range of factors, they may be either due to physical factors or software glithces."
+            ]
+        },
+        {
+            "tag":"service_center",
+            "patterns":[
+                "Where is the service center",
+                "Where can I visit you",
+                "Where are you guys located at",
+                "Where can I get my phone fixed"
+            ],
+            "responses":[
+                "Our service center is located at XXX Nagar, ABC main road, Chennai. You may visit us from 8AM to 10PM. All major brands of mobiles can repaired in our service center. Contact us at +91 XXXXXXXXX or visit us at www.abcxyzsample.com"
+            ]
+        },
+        {
+            "tag":"power_button",
+            "patterns":[
+                "My power button is not working properly",
+                "Power button is broken",
+                "My power button does not work properly",
+                "Power button does not work"
+            ],
+            "responses":[
+                "If your power button is not working properly, it is a minor issue we will be able to fix it with ease. The cost of repair is very low as well."
+            ]
+        },
+        {
+            "tag":"volume_button",
+            "patterns":[
+                "My volume button is broken",
+                "My volume button is not working properly",
+                "My volume button does not work properly",
+                "My volume button does not work"
+            ],
+            "responses":[
+                "If your volume button is not working properly, it is a minor issue we will be able to fix it with ease. The cost of repair is very low as well."
+            ]
+        },
+        {
+            "tag":"screen_guard",
+            "patterns":[
+                "Tempered glass replacement",
+                "Tempered glass is broken",
+                "Tempered glass is cracked",
+                "My screen guard needs to be replaced",
+                "screen guard is broken",
+                "screen guard is cracked"
+            ],
+            "responses":[
+                "We can replace your screen guard with ease, please do bring in your device to our service center. We remain open from 8AM to 10PM."
+            ]
+        },
+        {
+            "tag":"case",
+            "patterns":[
+                "My case is broken",
+                "My case is needs replacement",
+                "I need a new case",
+                "My flip cover needs to be replaced",
+                "My back cover needs to be replaced",
+                "My phone cover needs replacement"
+            ],
+            "responses":[ 
+                "We can replace your phone case easily. We have a wide range of phone cases on display! Please do take your time to visit us and choose from a wide variety of phone covers. Our service center is open from 8AM to 10PM."
+        ]
+        }
+    ]
+}
